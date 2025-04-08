@@ -79,12 +79,18 @@
 #     print(x)
 # except Exception as e:
 #     print(e)
-try:
-    [1, 2][3]
-    print(x)
-except NameError:
-    print("Erro de nome")
-except TypeError:
-    print("Erro de tipo")
-except Exception as e:
-    print("Outro erro ", e)
+# try:
+#     [1, 2][3]
+#     print(x)
+# except NameError:
+#     print("Erro de nome")
+# except TypeError:
+#     print("Erro de tipo")
+# except Exception as e:
+#     print("Outro erro ", e)
+
+i = 0
+while i < 10:
+    print(i)
+    i += 1
+    
